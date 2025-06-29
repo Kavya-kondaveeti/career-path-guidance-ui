@@ -98,8 +98,6 @@ Roadmap (via roadmap.sh)
 
 ---
 
----
-
 ## 👩‍💻 Author
 
-**Kavya Kondaveeti**  
+Maintained and developed by **Kavya Kondaveeti**
