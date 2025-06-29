@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Path Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Career Path Assistant</h1>
+    <form id="careerForm">
+      <label>Select your Interests:</label><br>
+      <input type="checkbox" name="answer" value="Coding"> Coding
+      <input type="checkbox" name="answer" value="Design"> Design
+      <input type="checkbox" name="answer" value="Data"> Data
+      <input type="checkbox" name="answer" value="Business"> Business
+      <input type="checkbox" name="answer" value="Math"> Math
+      <input type="checkbox" name="answer" value="English"> English
+      <input type="checkbox" name="answer" value="Creative"> Creative
+      <input type="checkbox" name="answer" value="Leadership"> Leadership
+      <br><br>
+      <button type="submit">Find My Career</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Your Suggested Career:</h2>
+      <p id="career"></p>
+      <p id="desc"></p>
+      <a id="roadmap" href="#" target="_blank">Roadmap</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
